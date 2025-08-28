@@ -1,0 +1,18 @@
+@import "tailwindcss";
+ 
+
+ 
+.custom-gradient { 
+  background: linear-gradient(to bottom, black 3%, #1a1a1b 40%, #424242 100%);
+}
+
+.custom-orange-gradient {
+  background: linear-gradient(to right, #ce4f75, #d8245a, #ff004c);
+}
+ 
+.border-custom-orange-gradient {
+  border-width: 1px;
+  border-style: solid; 
+  border-image: linear-gradient(to right, #ce4f75, #d8245a, #ff004c);
+  border-image-slice: 1;
+}
